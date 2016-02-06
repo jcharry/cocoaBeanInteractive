@@ -1,0 +1,102 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#page1 {
+    include: bg;
+    background: url(../assets/images/rainforest.jpg);
+    /*display: none;*/
+    /*width:100%;*/
+    /*height: 100%;*/
+    /*position: fixed;*/
+    /*background: url(../assets/images/rainforest.jpg);*/
+	/*-moz-background-size: cover;*/
+	/*-o-background-size: cover;*/
+	/*-webkit-background-size: cover;    */
+    /*background-size: cover;*/
+
+    /*background-position: center center;*/
+    /*background-repeat:  no-repeat;*/
+    /*background-attachment: fixed;*/
+    /*background-size:  cover;*/
+    /*background-color: #999;*/
+}
+
+@mixin bg {
+    display: none;
+    width:100%;
+    height: 100%;
+    position: fixed;
+    background: url(../assets/images/rainforest.jpg);
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;    
+    background-size: cover;
+
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    background-color: #999;
+} 
+
+#backgroundOverlay {
+    display: none;
+    position: absolute;
+    opacity: 0;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+#p1Title {
+    display:none;
+    opacity: 0;
+    position:absolute;
+    width: 100%;
+    line-height:70vh;
+    color: white;
+    font-size: 30pt;
+    text-align: center;
+}
+#p1Segue {
+    display: none;
+    opacity: 0;
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 50%;
+    top: 50%;
+    margin:0px;
+    margin-left: -50px;
+}
+
+
+#page2 {
+    display: none;
+    width:100%;
+    height: 100%;
+    position: fixed;
+    background: url(https://maps.googleapis.com/maps/api/staticmap?center=14.7478338,-87.3660537&zoom=5&size=640x320&scale=2&maptype=terrain&key=AIzaSyCi2KeJdVZC5jJnVqcIqPIUZsQrc6RPQgc&scale=1&style=feature:road%7Cvisibility:off&style=feature:water%7Ccolor:0x222222%7Cvisibility:on&style=feature:administrative%7Cvisibility:off&style=feature:administrative.country%7Cvisibility:simplified%7Ccolor:0xaaaaaa&style=feature:landscape%7Ccolor:0x555555&style=feature:poi%7Ccolor:0x555555);
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;    
+    background-size: cover;
+
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    background-color: #999;
+}
+#page2Map {
+    position: absolute;
+    top:0;
+    left:0;
+}

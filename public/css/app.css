@@ -1,0 +1,339 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font: 14px Cagliostro, "Lucida Grande", Helvetica, Arial, sans-serif; }
+
+a {
+  color: #00B7FF; }
+
+#p1 {
+  background: url(../assets/images/cocoaBeansCover.jpg);
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #999;
+  opacity: 0; }
+
+#backgroundOverlay {
+  display: none;
+  position: absolute;
+  opacity: 0;
+  background-color: black;
+  width: 100%;
+  height: 100%; }
+
+#p1Title {
+  display: none;
+  opacity: 0;
+  position: absolute;
+  right: 40px;
+  line-height: 30vh;
+  color: #909090;
+  font-size: 30pt;
+  text-align: center;
+  font-family: Cagliostro; }
+
+#p1Segue {
+  display: none;
+  opacity: 0;
+  position: absolute;
+  width: 200px;
+  height: 30px;
+  top: 30%;
+  right: 250px;
+  margin: 0px;
+  margin-left: -50px;
+  background-color: #A77C4C;
+  color: #E8E8E3;
+  font-size: 12pt;
+  font-family: Cagliostro; }
+
+#p1Segue:hover {
+  background-color: #E0AD73; }
+
+#p2 {
+  /*background: url(https://maps.googleapis.com/maps/api/staticmap?center=17.028472,-89.758696&zoom=5&size=640x320&scale=2&maptype=terrain&key=AIzaSyCi2KeJdVZC5jJnVqcIqPIUZsQrc6RPQgc&scale=1&style=feature:road%7Cvisibility:off&style=feature:water%7Ccolor:0x222222%7Cvisibility:on&style=feature:administrative%7Cvisibility:off&style=feature:administrative.country%7Cvisibility:simplified%7Ccolor:0xaaaaaa&style=feature:landscape%7Ccolor:0x555555&style=feature:poi%7Ccolor:0x555555&markers=color:0xB0B0B0%7Csize:small%7C19.1788445,-96.1975125&markers=color:0xB0B0B0%7Csize:small%7C16.246879,-94.4990503);*/
+  background: url(../assets/images/map.png);
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #999;
+  opacity: 0; }
+
+#page2Map {
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+#p2Annotation {
+  position: absolute;
+  bottom: 30px;
+  left: 0px;
+  width: 450px;
+  opacity: 0;
+  cursor: default; }
+
+#p2 h1 {
+  color: #B0B0B0;
+  font-size: 25pt;
+  width: 100%;
+  text-align: center; }
+
+#p2 p {
+  color: #B0B0B0;
+  padding: 20px;
+  font-size: 16pt; }
+
+/* ---- PAGE 3 ---- */
+#p3 {
+  background: url(../assets/images/conquistadors.jpg);
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #999;
+  opacity: 0;
+  opacity: 1; }
+
+#p3Title {
+  color: white;
+  display: none;
+  opacity: 0;
+  position: fixed;
+  width: 400px;
+  height: auto;
+  right: 100px;
+  top: 30px; }
+
+#conquistadors:hover {
+  font-size: 24pt; }
+
+#p3Para {
+  display: none;
+  opacity: 0;
+  position: fixed;
+  width: 400px;
+  height: auto;
+  right: 100px;
+  bottom: 30px; }
+
+#p3 p {
+  color: white;
+  font-size: 16pt; }
+
+/* ---- PAGE 4 ---- */
+#p4 {
+  background: url("../assets/images/farming.jpg");
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #999;
+  opacity: 0; }
+
+#p4 p {
+  color: white;
+  font-size: 16pt; }
+
+#p4Para {
+  position: absolute;
+  right: 100px;
+  top: 80px;
+  width: 400px; }
+
+#p4Para2 {
+  position: absolute;
+  right: 100px;
+  bottom: 100px;
+  width: 400px; }
+
+#p4Para3 {
+  position: absolute;
+  left: 100px;
+  bottom: 200px;
+  width: 400px; }
+
+/* ----- PAGE 5 ---- */
+#p5 {
+  background: url(../assets/images/ccn51.jpg);
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #999;
+  opacity: 0; }
+
+#p5 p {
+  color: white;
+  font-size: 16pt; }
+
+#p5Para {
+  position: absolute;
+  left: 100px;
+  top: 40px;
+  width: 450px; }
+
+#p5Para2 {
+  position: absolute;
+  right: 100px;
+  bottom: 400px;
+  width: 400px; }
+
+#p5Para3 {
+  position: absolute;
+  left: 100px;
+  bottom: 100px;
+  width: 400px; }
+
+/* ----- PAGE 6 ---- */
+#p6 {
+  background: url(../assets/images/childlabor.jpg);
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #999;
+  opacity: 0; }
+
+#p6 p {
+  color: white;
+  font-size: 16pt; }
+
+#p6Title {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  color: white; }
+
+#p6Para {
+  position: absolute;
+  right: 100px;
+  top: 40px;
+  width: 450px; }
+
+#p6Para2 {
+  position: absolute;
+  left: 100px;
+  top: 200px;
+  width: 400px; }
+
+#p6Para3 {
+  position: absolute;
+  right: 100px;
+  bottom: 100px;
+  width: 400px; }
+
+#navBar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30px; }
+
+#back {
+  float: left; }
+
+#forward {
+  float: right; }
+
+.overlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  opacity: 0.5; }
+
+.blink {
+  animation: blink 3s infinite alternate;
+  /*-webkit-animation: blink 1s steps(5, start) infinite;*/ }
+
+@keyframes blink {
+  0% {
+    opacity: 0.0; }
+  100% {
+    opacity: 0.5; } }
+
+/* ----- HOVER CONTAINER ---- */
+span {
+  color: #36FFD4; }
+
+span:hover {
+  cursor: pointer;
+  font-size: 20pt; }
+
+#hoverContainer {
+  opacity: 0;
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  background-color: rgba(40, 40, 40, 0.9);
+  font-size: 14pt; }
+
+#hoverContainer p {
+  font-size: 14pt;
+  color: #36FFD4;
+  text-align: center;
+  height: auto;
+  width: 300px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding-left: 8px;
+  padding-right: 8px; }
+
+#hoverContainer img {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  top: 0;
+  left: 50%;
+  margin-left: -150px; }
