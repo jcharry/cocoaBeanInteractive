@@ -38,7 +38,7 @@ window.onload = function() {
     });
 
     // Load page 1
-    document.getElementById('loading').style.display = 'none';
+    document.getElementById('spinner').style.display = 'none';
     //var page1 = document.getElementById('page1');
     //page1.style.display = 'block';
 
